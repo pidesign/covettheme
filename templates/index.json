@@ -45,10 +45,46 @@
         "add_image_padding": false,
         "show_vendor": false
       }
+    },
+    "16256906052bd71bd3": {
+      "type": "featured-blog",
+      "blocks": {
+        "16256906052bd71bd3-0": {
+          "type": "title",
+          "settings": {
+            "show_date": true,
+            "show_author": false
+          }
+        },
+        "16256906052bd71bd3-1": {
+          "type": "summary",
+          "settings": {
+          }
+        },
+        "16256906052bd71bd3-2": {
+          "type": "link",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16256906052bd71bd3-0",
+        "16256906052bd71bd3-1",
+        "16256906052bd71bd3-2"
+      ],
+      "settings": {
+        "heading": "Blog posts",
+        "blog": "news",
+        "post_limit": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "soft_background": false
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_products"
+    "featured_products",
+    "16256906052bd71bd3"
   ]
 }
