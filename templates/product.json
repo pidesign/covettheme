@@ -21,7 +21,7 @@
         "1625689292566a5997-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/metal-clothing-rack-with-warm-colored-clothing.jpg",
+        "image": "{{ product.metafields.my_fields.banner_image.value }}",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
